@@ -1,0 +1,472 @@
+[
+    {
+        "equipmentnumber": 10442036,
+        "type": "ESCALATOR",
+        "description": "zu Gleis 3/4",
+        "geocoordX": 13.19817595,
+        "geocoordY": 52.5344797,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 561
+    },
+    {
+        "equipmentnumber": 10442037,
+        "type": "ESCALATOR",
+        "description": "zu Gleis 5/6",
+        "geocoordX": 13.19811405,
+        "geocoordY": 52.5343485,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 561
+    },
+    {
+        "equipmentnumber": 10491003,
+        "type": "ESCALATOR",
+        "description": "zu Gleis 1/2",
+        "geocoordX": 13.4689154,
+        "geocoordY": 52.50292495,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10491002,
+        "type": "ELEVATOR",
+        "description": "von Gleis 1/2 zu Gleis 11/12",
+        "geocoordX": 13.4692128,
+        "geocoordY": 52.5028706,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10491885,
+        "type": "ESCALATOR",
+        "description": "zu Gleis 5/6 (S-Bahn)",
+        "geocoordX": 13.46905785,
+        "geocoordY": 52.50330255,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10200698,
+        "type": "ELEVATOR",
+        "description": "zu Gleis 3/4",
+        "geocoordX": 12.3893778,
+        "geocoordY": 51.3962577,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 7848
+    },
+    {
+        "equipmentnumber": 10200695,
+        "type": "ELEVATOR",
+        "description": "zu Gleis 3/4",
+        "geocoordX": 12.38945739,
+        "geocoordY": 51.39605684,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 7848
+    },
+    {
+        "equipmentnumber": 10447402,
+        "type": "ELEVATOR",
+        "description": "zu Gleis 1/2 (S-Bahn)",
+        "geocoordX": 13.1932163,
+        "geocoordY": 52.432298,
+        "state": "UNKNOWN",
+        "stateExplanation": "available",
+        "stationnumber": 4557
+    },
+    {
+        "equipmentnumber": 10563637,
+        "type": "ELEVATOR",
+        "description": "von Gleis 7 zu Gleis 11/12",
+        "geocoordX": 13.46949,
+        "geocoordY": 52.50342,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10563638,
+        "type": "ELEVATOR",
+        "description": "von Gleis 7 zu Gleis 13/14",
+        "geocoordX": 13.4699,
+        "geocoordY": 52.50334,
+        "state": "INACTIVE",
+        "stateExplanation": "under construction",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10442624,
+        "type": "ESCALATOR",
+        "description": "zu Gleis 1/2 (S-Bahn)",
+        "geocoordX": 13.19824495,
+        "geocoordY": 52.5346279,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 561
+    },
+    {
+        "equipmentnumber": 10068718,
+        "type": "ELEVATOR",
+        "description": "zu Gleis 1/2",
+        "geocoordX": 12.3890793,
+        "geocoordY": 51.3962028,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 7848
+    },
+    {
+        "equipmentnumber": 10500168,
+        "type": "ELEVATOR",
+        "description": "Sonntagsstraße zu Gleis 13/14",
+        "geocoordX": 13.4699785,
+        "geocoordY": 52.5035782,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10500157,
+        "type": "ELEVATOR",
+        "description": "von Gleis 1/2 zu Gleis 13/14",
+        "geocoordX": 13.4695935,
+        "geocoordY": 52.502802,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10500158,
+        "type": "ELEVATOR",
+        "description": "Hauptstraße zu Gleis 13/14",
+        "geocoordX": 13.4694555,
+        "geocoordY": 52.5025428,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10477800,
+        "type": "ELEVATOR",
+        "description": "von EG zu UG",
+        "geocoordX": 12.3805189,
+        "geocoordY": 51.3457817,
+        "state": "INACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 3631
+    },
+    {
+        "equipmentnumber": 10499261,
+        "type": "ELEVATOR",
+        "description": "von Gleis 3/4 zu Gleis 13/14",
+        "geocoordX": 13.46978,
+        "geocoordY": 52.503,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10499262,
+        "type": "ELEVATOR",
+        "description": "von Gleis 3/4 zu Gleis 11/12",
+        "geocoordX": 13.46934,
+        "geocoordY": 52.50307,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10499260,
+        "type": "ELEVATOR",
+        "description": "von Gleis 5/6 zu Gleis 13/14",
+        "geocoordX": 13.4698599,
+        "geocoordY": 52.5031696,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10490981,
+        "type": "ELEVATOR",
+        "description": "von Gleis 5/6 zu Gleis 11/12",
+        "geocoordX": 13.4693858,
+        "geocoordY": 52.5032602,
+        "state": "INACTIVE",
+        "stateExplanation": "not available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10499311,
+        "type": "ESCALATOR",
+        "description": "von Gleis 3/4 zur Gleis 11/12",
+        "geocoordX": 13.46891,
+        "geocoordY": 52.50318,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10499312,
+        "type": "ESCALATOR",
+        "description": "von Gleis 3/4 zur Gleis 11/12",
+        "geocoordX": 13.46889,
+        "geocoordY": 52.50316,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10490976,
+        "type": "ESCALATOR",
+        "description": "zu Gleis 5/6 (S-Bahn)",
+        "geocoordX": 13.46908195,
+        "geocoordY": 52.50335405,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10490977,
+        "type": "ESCALATOR",
+        "description": "zu Gleis 5/6 (S-Bahn)",
+        "geocoordX": 13.4690658,
+        "geocoordY": 52.50331965,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10313413,
+        "type": "ELEVATOR",
+        "description": "von Gleis 1/2 zu Gleis 3/4",
+        "geocoordX": 13.194322,
+        "geocoordY": 52.4319495,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4557
+    },
+    {
+        "equipmentnumber": 10571102,
+        "type": "ESCALATOR",
+        "description": null,
+        "geocoordX": 13.46898,
+        "geocoordY": 52.50312,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10464325,
+        "type": "ELEVATOR",
+        "description": "zu Gleis 1/2 (S-Bahn)",
+        "geocoordX": 13.1985066,
+        "geocoordY": 52.5345835,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 561
+    },
+    {
+        "equipmentnumber": 10464326,
+        "type": "ELEVATOR",
+        "description": "zu Gleis 3/4",
+        "geocoordX": 13.1984391,
+        "geocoordY": 52.5344329,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 561
+    },
+    {
+        "equipmentnumber": 10464327,
+        "type": "ELEVATOR",
+        "description": "zu Gleis 5/6",
+        "geocoordX": 13.1983776,
+        "geocoordY": 52.5343047,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 561
+    },
+    {
+        "equipmentnumber": 10507197,
+        "type": "ESCALATOR",
+        "description": null,
+        "geocoordX": 13.46955,
+        "geocoordY": 52.50278,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10507195,
+        "type": "ESCALATOR",
+        "description": null,
+        "geocoordX": 13.46965,
+        "geocoordY": 52.50302,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10507194,
+        "type": "ESCALATOR",
+        "description": "von Gleis 5/6 zu Gleis 13/14",
+        "geocoordX": 13.46975,
+        "geocoordY": 52.50324,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10464412,
+        "type": "ESCALATOR",
+        "description": "zu Gleis 11/12 (S-Bahn)",
+        "geocoordX": 13.46895605,
+        "geocoordY": 52.5027051,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10464410,
+        "type": "ESCALATOR",
+        "description": "zu Gleis 11/12 (S-Bahn)",
+        "geocoordX": 13.4692408,
+        "geocoordY": 52.5036615,
+        "state": "INACTIVE",
+        "stateExplanation": "not available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10464411,
+        "type": "ESCALATOR",
+        "description": "zu Gleis 11/12 (S-Bahn)",
+        "geocoordX": 13.4689734,
+        "geocoordY": 52.5027394,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10477787,
+        "type": "ELEVATOR",
+        "description": "von UG zu Gleis 1/2",
+        "geocoordX": 12.3789697,
+        "geocoordY": 51.3444291,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 3631
+    },
+    {
+        "equipmentnumber": 10477786,
+        "type": "ELEVATOR",
+        "description": "Gleis 1/2 - EG - OG",
+        "geocoordX": 12.3789908,
+        "geocoordY": 51.3440833,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 3631
+    },
+    {
+        "equipmentnumber": 10477789,
+        "type": "ESCALATOR",
+        "description": "zu Gleis 1/2",
+        "geocoordX": 12.38038,
+        "geocoordY": 51.34562,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 3631
+    },
+    {
+        "equipmentnumber": 10477788,
+        "type": "ESCALATOR",
+        "description": "zu Gleis 1/2",
+        "geocoordX": 12.38034,
+        "geocoordY": 51.34564,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 3631
+    },
+    {
+        "equipmentnumber": 10477790,
+        "type": "ESCALATOR",
+        "description": "von EG zu OG",
+        "geocoordX": 12.38033,
+        "geocoordY": 51.34569,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 3631
+    },
+    {
+        "equipmentnumber": 10477792,
+        "type": "ESCALATOR",
+        "description": "zu Gleis 1/2",
+        "geocoordX": 12.37909,
+        "geocoordY": 51.34453,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 3631
+    },
+    {
+        "equipmentnumber": 10477791,
+        "type": "ESCALATOR",
+        "description": "von EG zu OG",
+        "geocoordX": 12.38046,
+        "geocoordY": 51.34563,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 3631
+    },
+    {
+        "equipmentnumber": 10477793,
+        "type": "ESCALATOR",
+        "description": "zu Gleis 1/2",
+        "geocoordX": 12.37912,
+        "geocoordY": 51.34452,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 3631
+    },
+    {
+        "equipmentnumber": 10464409,
+        "type": "ESCALATOR",
+        "description": "zu Gleis 11/12 (S-Bahn)",
+        "geocoordX": 13.469267,
+        "geocoordY": 52.5037126,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10464407,
+        "type": "ELEVATOR",
+        "description": "Hauptstraße zu Gleis 11/12",
+        "geocoordX": 13.4691041,
+        "geocoordY": 52.5026257,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10464408,
+        "type": "ELEVATOR",
+        "description": "Sontagsstraße zu Gleis 11/12",
+        "geocoordX": 13.4695671,
+        "geocoordY": 52.5036573,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 4809
+    },
+    {
+        "equipmentnumber": 10293582,
+        "type": "ESCALATOR",
+        "description": "zu Gleis 1/2 (S-Bahn)",
+        "geocoordX": 13.19632865,
+        "geocoordY": 52.53495825,
+        "state": "ACTIVE",
+        "stateExplanation": "available",
+        "stationnumber": 561
+    }
+]
