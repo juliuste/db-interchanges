@@ -2,6 +2,8 @@
 
 Retrieve accessibility information for interchanges between specific platforms at Deutsche Bahn (DB) stations. *This module is still an early prototype, feel free to test and play around, but you shouldn't let people rely on it. See also: [Coverage and potential problems](#coverage-and-potential-problems).*
 
+**This module is also exposed as a REST API at `1.db-interchanges.juliustens.eu` via [db-interchanges-rest](https://github.com/juliuste/db-interchanges-rest).**
+
 [![npm version](https://img.shields.io/npm/v/db-interchanges.svg)](https://www.npmjs.com/package/db-interchanges)
 [![Build status](https://travis-ci.org/juliuste/db-interchanges.svg?branch=master)](https://travis-ci.org/juliuste/db-interchanges)
 [![Greenkeeper badge](https://badges.greenkeeper.io/juliuste/db-interchanges.svg)](https://greenkeeper.io/)
