@@ -1,50 +1,36 @@
 {
 	"name": "db-interchanges",
-	"description": "Retrieve accessibility information for interchanges between specific platforms at Deutsche Bahn (DB) stations.",
 	"version": "0.0.0",
+	"description": "Retrieve accessibility information for interchanges between specific platforms at Deutsche Bahn (DB) stations.",
 	"keywords": [
+		"accessibility",
 		"bahn",
-		"railway",
+		"change",
+		"db",
+		"deutsche",
+		"elevator",
 		"german",
 		"germany",
-		"deutsche",
-		"db",
-		"change",
 		"interchange",
-		"wheelchair",
-		"accessibility",
-		"elevator"
+		"railway",
+		"wheelchair"
 	],
-	"author": "Julius Tens <mail@juliustens.eu>",
 	"homepage": "https://github.com/juliuste/db-interchanges",
-	"repository": "juliuste/db-interchanges",
 	"bugs": "https://github.com/juliuste/db-interchanges/issues",
-	"main": "lib/index.js",
+	"repository": "juliuste/db-interchanges",
+	"license": "ISC",
+	"author": "Julius Tens <mail@juliustens.eu>",
 	"files": [
 		"lib/*"
 	],
-	"devDependencies": {
-		"depcheck": "^0.9.0",
-		"eslint": "^6.6.0",
-		"eslint-config-standard": "^14.1.0",
-		"eslint-plugin-import": "^2.18.2",
-		"eslint-plugin-node": "^10.0.0",
-		"eslint-plugin-promise": "^4.2.1",
-		"eslint-plugin-standard": "^4.0.1",
-		"tape": "^4.11.0",
-		"tape-promise": "^4.0.0"
-	},
+	"main": "lib/index.js",
 	"scripts": {
 		"check-deps": "depcheck",
-		"lint": "eslint lib test.js",
 		"fix": "eslint --fix lib test.js",
+		"lint": "eslint lib test.js",
 		"prepublishOnly": "npm test",
 		"test": "npm run lint && npm run check-deps && node test"
 	},
-	"engines": {
-		"node": ">=10"
-	},
-	"license": "ISC",
 	"dependencies": {
 		"@derhuerst/query-overpass": "^2.0.0",
 		"@turf/distance": "^6.0.1",
@@ -56,5 +42,19 @@
 		"is-uic-location-code": "0.0.1",
 		"lodash": "^4.17.15",
 		"ow": "^0.14.0"
+	},
+	"devDependencies": {
+		"depcheck": "^0.9.1",
+		"eslint": "^6.6.0",
+		"eslint-config-standard": "^14.1.0",
+		"eslint-plugin-import": "^2.18.2",
+		"eslint-plugin-node": "^10.0.0",
+		"eslint-plugin-promise": "^4.2.1",
+		"eslint-plugin-standard": "^4.0.1",
+		"tape": "^4.11.0",
+		"tape-promise": "^4.0.0"
+	},
+	"engines": {
+		"node": ">=10"
 	}
 }
