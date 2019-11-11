@@ -129,3 +129,16 @@ tape('berlin nikolasssee (live)', async t => {
 		elevators: ['10447402', '10313413']
 	})
 })
+
+tape('aachen hbf (same perron)', async t => {
+	const stationId = '8000001'
+	const fromPlatform = '6'
+	const toPlatform = '7'
+	const from = { stationId, platform: fromPlatform }
+	const to = { stationId, platform: toPlatform }
+	const interchange = await getInterchange(from, to)
+	t.deepEquals(interchange, {
+		barrierFree: true,
+		elevators: []
+	})
+})
