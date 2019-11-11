@@ -35,7 +35,7 @@
 		"@derhuerst/query-overpass": "^2.0.0",
 		"@turf/distance": "^6.0.1",
 		"@turf/helpers": "^6.1.4",
-		"db-elevators": "0.0.4",
+		"db-elevators": "0.0.5",
 		"db-perrons": "0.0.6",
 		"got": "^9.6.0",
 		"graphlib": "^2.1.7",
