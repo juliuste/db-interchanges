@@ -48,10 +48,10 @@ fetchInterchangeInformation(from, to, opt)
 response|situation
 --------|---------
 `null` | The [`db-perrons`](https://github.com/juliuste/db-perrons) module doesn't contain any information for the specified platform(s), *see also [Coverage and potential problems](#coverage-and-potential-problems)*.
-`{ barrierFree: true, elevators:[] }` | The module found a barrier-free route for the interchange that **doesn't require using any elevators**.
-`{ barrierFree: true, elevators: ['123456789']} ` | The module found a barrier-free route that requires using the elevators with given FaSta ids *(see also [db-elevators](https://github.com/juliuste/db-elevators))*, which are **all currently working correctly according to the FaSta API**.
-`{ barrierFree: null, elevators: ['123456789']} ` | The module found a barrier-free route that requires using the elevators with given FaSta ids *see also [db-elevators](https://github.com/juliuste/db-elevators)*, for which the **FaSta API returned status *working* or *unknown*, but *not broken***.
-`{ barrierFree: false ` | There either is **no barrier-free route at all** or an elevator that would make this route barrier-free is **currently broken according to the FaSta API**.
+`{ barrierFree: true, elevators: [] }` | The module found a barrier-free route for the interchange that **doesn't require using any elevators**.
+`{ barrierFree: true, elevators: ['123456789'] }` | The module found a barrier-free route that requires using the elevators with given FaSta ids *(see also [db-elevators](https://github.com/juliuste/db-elevators))*, which are **all currently working correctly according to the FaSta API**.
+`{ barrierFree: null, elevators: ['123456789'] }` | The module found a barrier-free route that requires using the elevators with given FaSta ids *see also [db-elevators](https://github.com/juliuste/db-elevators)*, for which the **FaSta API returned status *working* or *unknown*, but *not broken***.
+`{ barrierFree: false }` | There either is **no barrier-free route at all** or an elevator that would make this route barrier-free is **currently broken according to the FaSta API**.
 
 ## Coverage and potential problems
 
