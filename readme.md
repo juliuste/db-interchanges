@@ -47,7 +47,7 @@ fetchInterchangeInformation(from, to, opt)
 
 response|situation
 --------|---------
-`null` | The [`db-perrons`](https://github.com/juliuste/db-perrons) module doesn't contain any information for the specified platform(s), *see also [Coverage and potential problems](#coverage-and-potential-problems)*.
+`null` | The [`db-platforms`](https://github.com/juliuste/db-platforms) module doesn't contain any information for the specified platform(s), *see also [Coverage and potential problems](#coverage-and-potential-problems)*.
 `{ barrierFree: true, elevators: [] }` | The module found a barrier-free route for the interchange that **doesn't require using any elevators**.
 `{ barrierFree: true, elevators: ['123456789'] }` | The module found a barrier-free route that requires using the elevators with given FaSta ids *(see also [db-elevators](https://github.com/juliuste/db-elevators))*, which are **all currently working correctly according to the FaSta API**.
 `{ barrierFree: null, elevators: ['123456789'] }` | The module found a barrier-free route that requires using the elevators with given FaSta ids *see also [db-elevators](https://github.com/juliuste/db-elevators)*, for which the **FaSta API returned status *working* or *unknown*, but *not broken***.
@@ -55,9 +55,9 @@ response|situation
 
 ## Coverage and potential problems
 
-When looking up interchange information, `db-interchanges` first tries to look up the specified platforms using [db-perrons](https://github.com/juliuste/db-perrons). Any interchange for which not both platforms are tagged with OSM data in `db-perrons`, `db-interchanges` will be unable to determine any accessibility information. See [this list](https://github.com/juliuste/db-perrons/blob/master/todo.md) for an overview of the current coverage level in `db-perrons`. 
+When looking up interchange information, `db-interchanges` first tries to look up the specified platforms using [db-platforms](https://github.com/juliuste/db-platforms). Any interchange for which not both platforms are tagged with OSM data in `db-platforms`, `db-interchanges` will be unable to determine any accessibility information. See [this list](https://github.com/juliuste/db-platforms/blob/master/todo.md) for an overview of the current coverage level in `db-platforms`.
 
-Note that - as OSM ids are not guaranteed to be stable forever - `db-perrons` may contain entries that are not valid anymore. This will have the same effect as if a station hadn't been tagged in `db-perrons` in the first place, so take the coverage list mentioned above with a grain of salt.
+Note that - as OSM ids are not guaranteed to be stable forever - `db-platforms` may contain entries that are not valid anymore. This will have the same effect as if a station hadn't been tagged in `db-platforms` in the first place, so take the coverage list mentioned above with a grain of salt.
 
 After looking up platforms, `db-interchanges` fetches data from the [Overpass API](https://wiki.openstreetmap.org/wiki/Overpass_API), which might take some seconds. The module will then try to calculate routes between the `from` and `to` platforms specified by the user. It filters out any elevators which are tagged on OpenStreetMap but are not included in [db-elevators](https://github.com/juliuste/db-elevators). See [this list](https://github.com/juliuste/db-elevators/blob/master/todo.md) for an overview of the current coverage level in `db-elevators`.
 
