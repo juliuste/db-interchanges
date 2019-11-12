@@ -65,7 +65,9 @@ The algorithm also fetches the FaSta API for any matched elevators and filters o
 
 ## See also
 
-- **[db-interchanges-rest](https://github.com/juliuste/db-interchanges-rest)** - REST API exposing this module
+- **[db-interchanges-rest](https://github.com/juliuste/db-interchanges-rest)** - REST API exposing this module.
+- **[db-platforms](https://github.com/juliuste/db-platforms)** - Deutsche Bahn platform information, enriched with OSM data.
+- **[db-elevators](https://github.com/juliuste/db-elevators)** - Deutsche Bahn elevator information, enriched with OSM data.
 
 ## Contributing
 
