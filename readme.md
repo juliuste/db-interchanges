@@ -65,7 +65,7 @@ The algorithm also fetches the FaSta API for any matched elevators and filters o
 
 ## See also
 
-- **`[db-interchanges-rest](https://github.com/juliuste/db-interchanges-rest)`** - REST API exposing this module
+- **[db-interchanges-rest](https://github.com/juliuste/db-interchanges-rest)** - REST API exposing this module
 
 ## Contributing
 
