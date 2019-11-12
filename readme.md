@@ -63,6 +63,10 @@ After looking up platforms, `db-interchanges` fetches data from the [Overpass AP
 
 The algorithm also fetches the FaSta API for any matched elevators and filters out any broken ones and returns the corresponding `barrierFree` information *(see also [Responses](#responses)).*
 
+## See also
+
+- **`[db-interchanges-rest](https://github.com/juliuste/db-interchanges-rest)`** - REST API exposing this module
+
 ## Contributing
 
 If you found a bug or want to propose a feature, feel free to visit [the issues page](https://github.com/juliuste/db-interchanges/issues).
