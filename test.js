@@ -52,10 +52,10 @@ tape('leipzig hbf (broken elevator)', async t => {
 	})
 })
 
-tape('goslar (no perrons/tracks mapped)', async t => {
-	const stationId = '8000130'
-	const fromPlatform = '1'
-	const toPlatform = '5'
+tape('plaue (no perrons/tracks mapped)', async t => {
+	const stationId = '8010274'
+	const fromPlatform = '2'
+	const toPlatform = '3'
 	const from = { stationId, platform: fromPlatform }
 	const to = { stationId, platform: toPlatform }
 	const interchange = await getInterchange(from, to)
