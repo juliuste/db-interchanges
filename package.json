@@ -37,7 +37,7 @@
 		"@turf/helpers": "^6.1.4",
 		"db-elevators": "0.0.5",
 		"db-platforms": "^0.1.4",
-		"got": "^9.6.0",
+		"got": "^10.6.0",
 		"graphlib": "^2.1.8",
 		"is-uic-location-code": "0.0.1",
 		"lodash": "^4.17.15",
