@@ -41,7 +41,7 @@
 		"graphlib": "^2.1.8",
 		"is-uic-location-code": "0.0.1",
 		"lodash": "^4.17.15",
-		"ow": "^0.15.0"
+		"ow": "^0.17.0"
 	},
 	"devDependencies": {
 		"depcheck": "^0.9.1",
