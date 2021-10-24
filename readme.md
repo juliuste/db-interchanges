@@ -1,3 +1,5 @@
+# :warning: CURRENTLY UNMAINTAINED (MIGHT BE RE-ACTIVATED IN THE FUTURE)
+
 # db-interchanges
 
 Retrieve accessibility information for interchanges between specific platforms at Deutsche Bahn (DB) stations. *This module is still an early prototype, feel free to test and play around, but you shouldn't let people rely on it. See also: [Coverage and potential problems](#coverage-and-potential-problems).*
